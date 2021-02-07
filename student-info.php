@@ -30,7 +30,8 @@
     $db = null;
 
     echo '<h1>Your item has been saved succesfully</h1>';
-    echo ('<p>You inputed<br /> Name: '.$firstName.' '.$lastName.'<br /> Student Number: '.$studentNumber.'<br /> Year of Study: '.$studyYear.'</p>');
+    echo '<p>You inputed:<br /> Name: '.$firstName.' '.$lastName.'<br /> Student Number: '.$studentNumber.'<br /> Year of Study: '.$studyYear.'</p>';
+    echo '<a href="http://localhost:8080/comp-1006/Assignment1/student-info-table.php">Click me to see the updated table of enrolled students!</a>';
 ?>
     </body>
 </html>
