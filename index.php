@@ -10,7 +10,7 @@
         </header>
         <main><!--Main section for page-->
             <!--Form method passing inputed information to database-->
-            <form method="post" action="student-info">
+            <form method="post" action="student-info.php">
                 <!--Input section for fist name-->
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName" required><br /><br />
@@ -22,7 +22,7 @@
                 <input type="number" id="studentNumber" name="studentNumber" required><br /><br />
                 <!--Input section for dropdown-->
                 <label for="studyYear">Year of Study</label>
-                <select id="studyYear">
+                <select name="studyYear" id="studyYear">
 <?php
 
     //connecting to database
