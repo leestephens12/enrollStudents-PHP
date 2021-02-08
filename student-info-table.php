@@ -39,6 +39,9 @@ echo '</table>';
 
 //dsiconnect db
 $db = null;
+
+//Link to bring user back to add a new student
+echo '<a href=http://localhost:8080/comp-1006/Assignment1/index.php> Add a New Student </a>';
 ?>
     </body>
 </html>
